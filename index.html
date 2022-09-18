@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" h-ref="images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">   
         <title>Newsletter</title>
@@ -26,10 +26,10 @@
                         <nav>
                             <uL class="menu">
                                 <li>
-                                    <a href="#">Home</a>
+                                    <a href="#home">Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">Artigos</a>
+                                    <a href="#artigos">Artigos</a>
                                 </li>
                                 <li>
                                     <a href="#">Contato</a>
@@ -41,7 +41,7 @@
             </div>
         </header>
 
-        <main>
+        <main id="home">
             <div class="container-main">
                 <div>
                     <h2><span>Inscreva-se agora</span></h2>
@@ -59,22 +59,24 @@
             </div>
         </main>
         
-        <section class="cards">
-            <div class="card">
-                <div class="image">
-                    <img src="images/unicornio.webp" alt="">
-                </div>
+        <section id="artigos" class="cards">
+            <a href="./artigos/alimentos-organicos.html">
+                <div class="card">
+                    <div class="image">
+                        <img src="images/alimentos-organicos.jpg" alt="">
+                    </div>
 
-                <div class="content">
-                    <p class="title text--medium">
-                        Com stat-ups mais 'baratas', grandes empresas buscam aquisições.
-                    </p>
-                    <div class="info">
-                        <p class="text--medium">57 min</p>
+                    <div class="content">
+                        <p class="title text--medium">
+                            Assinatura de alimentos orgânicos.<br>
+                            Veja a proposta da foodtech.
+                        </p>
+                        <div class="info">
+                            <p class="text--medium">57 min</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-
+            </a>
             <div class="card">
                 <div class="image">
                     <img src="images/unicornio.webp" alt="">
