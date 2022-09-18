@@ -82,7 +82,6 @@
         position: relative;
         display: block;
         height: 22px;
-        width: 30px;
     }
 
     label span {
@@ -129,6 +128,10 @@
     #checkbox-menu:checked~nav .menu {
         transform: translateX(-100%);
         transition: 0.5s ease transform;
+    }
+
+    .botao-envio {
+        text-align: center;
     }
     
 }
