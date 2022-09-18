@@ -107,7 +107,7 @@ form [type="submit"] {
 
 form [type="submit"]:hover {
     cursor: pointer;
-    background-color: rgba(0, 128, 237, 0.90);
+    background-color: rgba(0, 128, 237, 0.80);
     transform: translateY(-2px);
 
 }
@@ -176,4 +176,50 @@ a {
 
 .title {
     margin-bottom: 0;
+}
+
+/* CONTATO */
+
+.form-contato {
+    max-width: 980px;
+    margin: 80px auto 0px auto;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+}
+
+.botao-envio {
+    max-width: 980px;
+    margin: 0px auto 0px auto;
+    padding-bottom: 100px;
+}
+
+.enviar {
+    width: 200px;
+    padding: 15px 0;
+    background: #0080ED;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    transition: 1s all;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.enviar:hover {
+    cursor: pointer;
+    background-color: rgba(0, 128, 237, 0.80);
+    transform: translateY(-2px);
+
 }
