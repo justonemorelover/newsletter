@@ -136,7 +136,7 @@ a {
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
-    color: rgb(187, 185, 185);
+    color: black;
 }
 
 .card {
@@ -165,7 +165,7 @@ a {
 .image img {
     position: absolute;
     border-radius: 10px;
-    top: 30%;
+    top: 5%;
     left: 60%;
     transform: translate(-75%, -20%);
 }
